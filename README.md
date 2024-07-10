@@ -43,7 +43,8 @@ Empodera Bank – Empoderando mulheres, transformando vidas.
 ## Diagrama de Classes - Empodera Bank
 
 
-![LogoEmpoderaBank](https://github.com/FrancieleCsantos/ON36-IJS-EmpoderaBank/assets/104040061/6a01d59f-3d95-4e08-b1ae-9e7f953dffda)
+![DiagramaDeClasses_EmpoderaBank](https://github.com/FrancieleCsantos/ON36-IJS-EmpoderaBank/assets/104040061/5e81cecb-3280-4f24-827d-bf41c6c8f80e)
+
 
 
 
