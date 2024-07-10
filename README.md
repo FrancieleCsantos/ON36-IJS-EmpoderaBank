@@ -2,6 +2,7 @@
 
 # Apresentação do Projeto: Empodera Bank
 
+[Contribution guidelines for this project](./assets/LogoEmpoderaBank.png)
 
 ## Bem-vindo ao Empodera Bank! 
 
@@ -34,12 +35,12 @@ Empodera Bank – Empoderando mulheres, transformando vidas.
 
 ## Diagrama de Classes - Empodera Bank
 
-
+[Contribution guidelines for this project](./assets/DiagramaDeClasses_EmpoderaBank.jpeg)
 
 
 ## Fluxo para Análise de Perfil 
 
-
+[Contribution guidelines for this project](./assets/Fluxo_AnalisePerfil.png)
 
 
 
