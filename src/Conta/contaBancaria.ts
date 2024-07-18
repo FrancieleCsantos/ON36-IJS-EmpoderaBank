@@ -33,3 +33,4 @@ abstract class ContaBancariaImpl implements ContaBancaria {
         return false
     }
 }
+export { ContaBancariaImpl };
