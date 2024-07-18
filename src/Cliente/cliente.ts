@@ -5,7 +5,7 @@ interface Cliente {
     telefone: string;
 }
 
-class ClienteImpl implements Cliente {
+ export class ClienteImpl implements Cliente {
     constructor(
         public nomeCompleto: string,
         public id:number,

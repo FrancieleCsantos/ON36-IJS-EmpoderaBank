@@ -22,6 +22,7 @@ abstract class ContaBancariaImpl implements ContaBancaria {
             this.saldo -= valor
             return true
         }
+        console.log("Saldo insuficiênte para realizar saque")
         return false
     }
 
@@ -30,6 +31,7 @@ abstract class ContaBancariaImpl implements ContaBancaria {
             contaDestino.depositar(valor);
             return true
         }
+        console.log("Saldo insuficiênte para completar transferência")
         return false
     }
 }
