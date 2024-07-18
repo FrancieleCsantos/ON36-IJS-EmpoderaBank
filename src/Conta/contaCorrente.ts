@@ -1,4 +1,4 @@
-import {ContaBancariaImpl } from '../Conta/contaBancaria'
+import { ContaBancariaImpl } from '../Conta/contaBancaria'
 
 class ContaCorrente extends ContaBancariaImpl {
     constructor(
@@ -13,11 +13,11 @@ class ContaCorrente extends ContaBancariaImpl {
         if (valor <= this.saldo + this.limiteChequeEspecial) {
             this.saldo -= valor;
 
-         return true;
+            return true;
         }
         console.log("Saldo insuficiênte para realizar saque")
         return false;
     }
 }
 
-export {ContaCorrente};
+export { ContaCorrente };

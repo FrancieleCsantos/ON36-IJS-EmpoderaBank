@@ -1,5 +1,5 @@
-import { ClienteImpl } from './Cliente/cliente'; 
-import { ContaCorrente } from './Conta/contaCorrente'; 
+import { ClienteImpl } from './Cliente/cliente';
+import { ContaCorrente } from './Conta/contaCorrente';
 
 // Criando um cliente
 const cliente1 = new ClienteImpl(
@@ -10,8 +10,8 @@ const cliente1 = new ClienteImpl(
 );
 
 // Criando contas bancárias
-const contaCorrente1 = new ContaCorrente(1001, 500, 1000); 
-const contaCorrente2 = new ContaCorrente(1002, 300, 500); 
+const contaCorrente1 = new ContaCorrente(1001, 500, 1000);
+const contaCorrente2 = new ContaCorrente(1002, 300, 500);
 
 // Exibindo informações iniciais
 console.log(`Cliente: ${cliente1.nomeCompleto}`);
