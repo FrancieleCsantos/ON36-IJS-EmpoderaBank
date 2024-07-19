@@ -1,5 +1,4 @@
 
-
 # Apresentação do Projeto: Empodera Bank
 
 ![LogoEmpoderaBank](https://github.com/FrancieleCsantos/ON36-IJS-EmpoderaBank/assets/104040061/f5c8a630-2fd8-431d-83e0-0487380717f4)
@@ -57,4 +56,62 @@ Empodera Bank – Empoderando mulheres, transformando vidas.
 
 
 
-### Desenvolvido por Fran Santos :smiling_face_with_three_hearts:
+# Estrutura do Projeto (Andamento Semana 02)
+
+
+### Interfaces e Classes - (Criadas na semana 02)
+
+- **Cliente**
+  
+  - **Propriedades**
+
+    - `nomeCompleto`: Nome completo do cliente.
+    - `id`: Identificador único do cliente.
+    - `endereco`: Endereço do cliente.
+    - `telefone`: Número de telefone do cliente.
+
+- **ClienteImpl**
+
+  - Implementa a interface `Cliente`.
+  - **Construtor**:
+    - `nomeCompleto`
+    - `id`
+    - `endereco`
+    - `telefone`
+
+- **ContaBancaria**
+
+  - Define a interface para operações bancárias básicas.
+  - **Propriedades**:
+    - `numeroDaConta`: Número da conta bancária.
+    - `saldo`: Saldo atual da conta.
+  - **Métodos**:
+    - `depositar(valor: number)`: Deposita um valor na conta.
+    - `sacar(valor: number)`: Saca um valor da conta. Retorna `true` se o saque for bem-sucedido, `false` caso contrário.
+    - `transferir(valor: number, contaDestino: ContaBancaria)`: Transfere um valor para outra conta. Retorna `true` se a transferência for bem-sucedida, `false` caso contrário.
+
+- **ContaBancariaImpl**
+
+  - Implementa a interface `ContaBancaria`.
+  - **Construtor**:
+    - `numeroDaConta`
+    - `saldo` (opcional, padrão: 0)
+  - **Métodos**:
+    - `depositar(valor: number)`: Implementação padrão de depósito.
+    - `sacar(valor: number)`: Implementação padrão de saque.
+    - `transferir(valor: number, contaDestino: ContaBancaria)`: Implementação padrão de transferência.
+
+- **ContaCorrente**
+
+  - Estende `ContaBancariaImpl` para representar uma conta corrente com limite de cheque especial.
+  - **Propriedades**:
+    - `limiteChequeEspecial`: Limite de cheque especial da conta.
+  - **Construtor**:
+    - `numeroDaConta`
+    - `saldo` 
+    - `limiteChequeEspecial` 
+  - **Método sobrescrito**:
+    - `sacar(valor: number)`: Permite saques além do saldo disponível, considerando o limite de cheque especial.
+
+
+
